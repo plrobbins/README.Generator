@@ -31,7 +31,6 @@ function generateReadme(data) {
 
     ## Contact
     \n![Badge](${gitHub})
-    \nView the project in GitHub at: ${data.url}
     \nIf you have questions, contact the developer at: ${data.email}`
 
 }
