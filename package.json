@@ -1,0 +1,22 @@
+{
+  "name": "readme.generator",
+  "version": "1.0.0",
+  "description": "This is for my Readme generator homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plrobbins/README.Generator.git"
+  },
+  "author": "Philip Robbins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plrobbins/README.Generator/issues"
+  },
+  "homepage": "https://github.com/plrobbins/README.Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateReadme = require("generateReadme");
-const api = require("api");
+const generateReadme = require("./utils/generateReadme");
+const api = require("./utils/api");
 
 //Questions
 function questions() {
@@ -57,7 +57,7 @@ function questions() {
 }; 
 
 //Write to Readme
-function writetoFile(fileNmar, data) {
+function writetoFile(fileName, data) {
     fs.writeFile(fileName, data, "utf8", function (err) {
         if (err) {
             throw err;
