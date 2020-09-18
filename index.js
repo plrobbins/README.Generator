@@ -13,12 +13,12 @@ function questions() {
       },
       {
           type: "input",
-          message: "Please provide a description of your project",
+          message: "Please provide a description of your project.",
           name: "description"
       },
       {
           type: "input",
-          message: "What packages need to be installedfor your project?",
+          message: "What packages need to be installed for your project?",
           name: "installation"
       },
       {
@@ -33,7 +33,7 @@ function questions() {
       },
       {
           type: "input",
-          message: "What command ios used to run a test?",
+          message: "What command is used to run a test?",
           name: "test"
       },
       {
@@ -62,7 +62,7 @@ function writetoFile(fileName, data) {
         if (err) {
             throw err;
         }
-        console.log("You have successfully written your READM file");
+        console.log("You have successfully written your README file");
     });
 };
 

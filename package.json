@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/plrobbins/README.Generator#readme",
   "dependencies": {
+    "axios": "^0.20.0",
     "inquirer": "^7.3.3"
   }
 }
