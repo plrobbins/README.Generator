@@ -1,4 +1,5 @@
 function generateReadme(data) {
+    const gitHub = `https://img.shields.io/badge/Github-${data.username}-4cbb9`;
     return `
     # ${data.title}
     
@@ -29,6 +30,9 @@ function generateReadme(data) {
     ${data.contributor}
 
     ## Contact
-    
-    `
+    \n![Badge](${gitHub})
+    \nView the project in GitHub at: ${data.url}
+    \nIf you have questions, contact the developer at: ${data.email}`
+
 }
+module.exports = generateReadme;
