@@ -56,6 +56,16 @@ function questions() {
     ]);
 }; 
 
+//Write to Readme
+function writetoFile(fileNmar, data) {
+    fs.writeFile(fileName, data, "utf8", function (err) {
+        if (err) {
+            throw err;
+        }
+        console.log("You have successfully written your READM file");
+    });
+};
+
 //Generate Readme
 async function init() {
     try {
