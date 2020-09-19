@@ -12,7 +12,7 @@ ${data.description}
 - [License](#license)
 - [Test](#test)
 - [Contributors](#contributors)
-- [Details](#details)
+- [Contact](#contact)
     
 ## Installation
 Packages required to run this program are: ${data.installation}
