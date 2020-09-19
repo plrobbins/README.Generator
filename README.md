@@ -7,7 +7,7 @@ This README will generate after the user is prompted to enter a series of questi
 Node JS and JavaScript
 
 ## Demo Video
-
+![README Generator Demo](https://github.com/plrobbins/README.Generator/blob/master/Demo_Video/README_Generator_Demo.gif)
 
 ## Info below from actual generated Readme
 # README Generator
