@@ -10,7 +10,7 @@ ${data.description}
 - [Installation](#Installation)
 - [Usage](#usage)
 - [License](#license)
-- [Test](#test)
+- [Tests](#tests)
 - [Contributors](#contributors)
 - [Contact](#contact)
     
